@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805EE01927361D18006F9A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE01827361D18006F9A7E /* AppDelegate.swift */; };
+		805EE01B27361D18006F9A7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE01A27361D18006F9A7E /* SceneDelegate.swift */; };
+		805EE01D27361D18006F9A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE01C27361D18006F9A7E /* ViewController.swift */; };
+		805EE02027361D18006F9A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EE01E27361D18006F9A7E /* Main.storyboard */; };
+		805EE02327361D18006F9A7E /* ZipCodeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 805EE02127361D18006F9A7E /* ZipCodeApp.xcdatamodeld */; };
+		805EE02527361D19006F9A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805EE02427361D19006F9A7E /* Assets.xcassets */; };
+		805EE02827361D19006F9A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EE02627361D19006F9A7E /* LaunchScreen.storyboard */; };
+		805EE03327361D19006F9A7E /* ZipCodeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE03227361D19006F9A7E /* ZipCodeAppTests.swift */; };
+		805EE03D27361D19006F9A7E /* ZipCodeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE03C27361D19006F9A7E /* ZipCodeAppUITests.swift */; };
+		805EE03F27361D19006F9A7E /* ZipCodeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE03E27361D19006F9A7E /* ZipCodeAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805EE02F27361D19006F9A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805EE00D27361D18006F9A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EE01427361D18006F9A7E;
+			remoteInfo = ZipCodeApp;
+		};
+		805EE03927361D19006F9A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805EE00D27361D18006F9A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EE01427361D18006F9A7E;
+			remoteInfo = ZipCodeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805EE01527361D18006F9A7E /* ZipCodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipCodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE01827361D18006F9A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805EE01A27361D18006F9A7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		805EE01C27361D18006F9A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		805EE01F27361D18006F9A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805EE02227361D18006F9A7E /* ZipCodeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZipCodeApp.xcdatamodel; sourceTree = "<group>"; };
+		805EE02427361D19006F9A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805EE02727361D19006F9A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805EE02927361D19006F9A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805EE02E27361D19006F9A7E /* ZipCodeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipCodeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE03227361D19006F9A7E /* ZipCodeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeAppTests.swift; sourceTree = "<group>"; };
+		805EE03827361D19006F9A7E /* ZipCodeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipCodeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE03C27361D19006F9A7E /* ZipCodeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeAppUITests.swift; sourceTree = "<group>"; };
+		805EE03E27361D19006F9A7E /* ZipCodeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805EE01227361D18006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE02B27361D19006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE03527361D19006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805EE00C27361D18006F9A7E = {
+			isa = PBXGroup;
+			children = (
+				805EE01727361D18006F9A7E /* ZipCodeApp */,
+				805EE03127361D19006F9A7E /* ZipCodeAppTests */,
+				805EE03B27361D19006F9A7E /* ZipCodeAppUITests */,
+				805EE01627361D18006F9A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805EE01627361D18006F9A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805EE01527361D18006F9A7E /* ZipCodeApp.app */,
+				805EE02E27361D19006F9A7E /* ZipCodeAppTests.xctest */,
+				805EE03827361D19006F9A7E /* ZipCodeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805EE01727361D18006F9A7E /* ZipCodeApp */ = {
+			isa = PBXGroup;
+			children = (
+				805EE01827361D18006F9A7E /* AppDelegate.swift */,
+				805EE01A27361D18006F9A7E /* SceneDelegate.swift */,
+				805EE01C27361D18006F9A7E /* ViewController.swift */,
+				805EE01E27361D18006F9A7E /* Main.storyboard */,
+				805EE02427361D19006F9A7E /* Assets.xcassets */,
+				805EE02627361D19006F9A7E /* LaunchScreen.storyboard */,
+				805EE02927361D19006F9A7E /* Info.plist */,
+				805EE02127361D18006F9A7E /* ZipCodeApp.xcdatamodeld */,
+			);
+			path = ZipCodeApp;
+			sourceTree = "<group>";
+		};
+		805EE03127361D19006F9A7E /* ZipCodeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				805EE03227361D19006F9A7E /* ZipCodeAppTests.swift */,
+			);
+			path = ZipCodeAppTests;
+			sourceTree = "<group>";
+		};
+		805EE03B27361D19006F9A7E /* ZipCodeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805EE03C27361D19006F9A7E /* ZipCodeAppUITests.swift */,
+				805EE03E27361D19006F9A7E /* ZipCodeAppUITestsLaunchTests.swift */,
+			);
+			path = ZipCodeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805EE01427361D18006F9A7E /* ZipCodeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE04227361D19006F9A7E /* Build configuration list for PBXNativeTarget "ZipCodeApp" */;
+			buildPhases = (
+				805EE01127361D18006F9A7E /* Sources */,
+				805EE01227361D18006F9A7E /* Frameworks */,
+				805EE01327361D18006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZipCodeApp;
+			productName = ZipCodeApp;
+			productReference = 805EE01527361D18006F9A7E /* ZipCodeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805EE02D27361D19006F9A7E /* ZipCodeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE04527361D19006F9A7E /* Build configuration list for PBXNativeTarget "ZipCodeAppTests" */;
+			buildPhases = (
+				805EE02A27361D19006F9A7E /* Sources */,
+				805EE02B27361D19006F9A7E /* Frameworks */,
+				805EE02C27361D19006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805EE03027361D19006F9A7E /* PBXTargetDependency */,
+			);
+			name = ZipCodeAppTests;
+			productName = ZipCodeAppTests;
+			productReference = 805EE02E27361D19006F9A7E /* ZipCodeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805EE03727361D19006F9A7E /* ZipCodeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE04827361D19006F9A7E /* Build configuration list for PBXNativeTarget "ZipCodeAppUITests" */;
+			buildPhases = (
+				805EE03427361D19006F9A7E /* Sources */,
+				805EE03527361D19006F9A7E /* Frameworks */,
+				805EE03627361D19006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805EE03A27361D19006F9A7E /* PBXTargetDependency */,
+			);
+			name = ZipCodeAppUITests;
+			productName = ZipCodeAppUITests;
+			productReference = 805EE03827361D19006F9A7E /* ZipCodeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805EE00D27361D18006F9A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					805EE01427361D18006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					805EE02D27361D19006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 805EE01427361D18006F9A7E;
+					};
+					805EE03727361D19006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 805EE01427361D18006F9A7E;
+					};
+				};
+			};
+			buildConfigurationList = 805EE01027361D18006F9A7E /* Build configuration list for PBXProject "ZipCodeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805EE00C27361D18006F9A7E;
+			productRefGroup = 805EE01627361D18006F9A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805EE01427361D18006F9A7E /* ZipCodeApp */,
+				805EE02D27361D19006F9A7E /* ZipCodeAppTests */,
+				805EE03727361D19006F9A7E /* ZipCodeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805EE01327361D18006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE02827361D19006F9A7E /* LaunchScreen.storyboard in Resources */,
+				805EE02527361D19006F9A7E /* Assets.xcassets in Resources */,
+				805EE02027361D18006F9A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE02C27361D19006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE03627361D19006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805EE01127361D18006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE01D27361D18006F9A7E /* ViewController.swift in Sources */,
+				805EE01927361D18006F9A7E /* AppDelegate.swift in Sources */,
+				805EE02327361D18006F9A7E /* ZipCodeApp.xcdatamodeld in Sources */,
+				805EE01B27361D18006F9A7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE02A27361D19006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE03327361D19006F9A7E /* ZipCodeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE03427361D19006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE03D27361D19006F9A7E /* ZipCodeAppUITests.swift in Sources */,
+				805EE03F27361D19006F9A7E /* ZipCodeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805EE03027361D19006F9A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805EE01427361D18006F9A7E /* ZipCodeApp */;
+			targetProxy = 805EE02F27361D19006F9A7E /* PBXContainerItemProxy */;
+		};
+		805EE03A27361D19006F9A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805EE01427361D18006F9A7E /* ZipCodeApp */;
+			targetProxy = 805EE03927361D19006F9A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805EE01E27361D18006F9A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EE01F27361D18006F9A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		805EE02627361D19006F9A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EE02727361D19006F9A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805EE04027361D19006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805EE04127361D19006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805EE04327361D19006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UHL83GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZipCodeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ZipCodeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805EE04427361D19006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UHL83GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZipCodeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ZipCodeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		805EE04627361D19006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UHL83GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ZipCodeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZipCodeApp.app/ZipCodeApp";
+			};
+			name = Debug;
+		};
+		805EE04727361D19006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UHL83GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ZipCodeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZipCodeApp.app/ZipCodeApp";
+			};
+			name = Release;
+		};
+		805EE04927361D19006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UHL83GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ZipCodeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZipCodeApp;
+			};
+			name = Debug;
+		};
+		805EE04A27361D19006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UHL83GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ZipCodeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZipCodeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805EE01027361D18006F9A7E /* Build configuration list for PBXProject "ZipCodeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE04027361D19006F9A7E /* Debug */,
+				805EE04127361D19006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE04227361D19006F9A7E /* Build configuration list for PBXNativeTarget "ZipCodeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE04327361D19006F9A7E /* Debug */,
+				805EE04427361D19006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE04527361D19006F9A7E /* Build configuration list for PBXNativeTarget "ZipCodeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE04627361D19006F9A7E /* Debug */,
+				805EE04727361D19006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE04827361D19006F9A7E /* Build configuration list for PBXNativeTarget "ZipCodeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE04927361D19006F9A7E /* Debug */,
+				805EE04A27361D19006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		805EE02127361D18006F9A7E /* ZipCodeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				805EE02227361D18006F9A7E /* ZipCodeApp.xcdatamodel */,
+			);
+			currentVersion = 805EE02227361D18006F9A7E /* ZipCodeApp.xcdatamodel */;
+			path = ZipCodeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 805EE00D27361D18006F9A7E /* Project object */;
+}
